@@ -18,7 +18,7 @@ const LiveCollaborationTrigger = ({
   const appState = useUIAppState();
 
   const showIconOnly = appState.width < 830;
-
+/**
   return (
     <Button
       {...rest}
@@ -36,6 +36,7 @@ const LiveCollaborationTrigger = ({
       )}
     </Button>
   );
+*/
 };
 
 export default LiveCollaborationTrigger;
