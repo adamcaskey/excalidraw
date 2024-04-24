@@ -18,9 +18,9 @@ const LiveCollaborationTrigger = ({
   const appState = useUIAppState();
 
   const showIconOnly = appState.width < 830;
-/**
-  return (
-    <Button
+
+  return (null
+    /**<Button
       {...rest}
       className={clsx("collab-button", { active: isCollaborating })}
       type="button"
@@ -34,9 +34,8 @@ const LiveCollaborationTrigger = ({
           {appState.collaborators.size}
         </div>
       )}
-    </Button>
+    </Button>*/
   );
-*/
 };
 
 export default LiveCollaborationTrigger;
